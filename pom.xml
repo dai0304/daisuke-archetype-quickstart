@@ -32,4 +32,16 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+      <id>dragon-release</id>
+      <name>Dragon Release Repository</name>
+      <url>scp://dragon.xet.jp/var/www/dragon.xet.jp/maven/release</url>
+    </repository>
+    <snapshotRepository>
+      <id>dragon-snapshot</id>
+      <name>Dragon Snapshot Repository</name>
+      <url>scp://dragon.xet.jp/var/www/dragon.xet.jp/maven/snapshot</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
