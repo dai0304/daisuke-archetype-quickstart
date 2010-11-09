@@ -22,5 +22,14 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
   <scm>
     <connection>scm:git:git://github.com/dai0304/daisuke-archetype-quickstart.git</connection>
     <developerConnection>scm:git:git://github.com/dai0304/daisuke-archetype-quickstart.git</developerConnection>
-  </scm>  
+  </scm>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.0-beta-9</version>
+      </plugin>
+    </plugins>
+  </build>
 </project>
