@@ -33,14 +33,14 @@ which is supported by eclipse-cs, FindBugs and Eclipse Java Compiler.
   </build>
   <distributionManagement>
     <repository>
-      <id>dragon-release</id>
+      <id>maven.xet.jp</id>
       <name>Dragon Release Repository</name>
-      <url>scp://dragon.xet.jp/var/www/dragon.xet.jp/maven/release</url>
+      <url>scp://maven.xet.jp/var/www/maven.xet.jp/release</url>
     </repository>
     <snapshotRepository>
-      <id>dragon-snapshot</id>
+      <id>maven.xet.jp-snapshot</id>
       <name>Dragon Snapshot Repository</name>
-      <url>scp://dragon.xet.jp/var/www/dragon.xet.jp/maven/snapshot</url>
+      <url>scp://maven.xet.jp/var/www/maven.xet.jp/snapshot</url>
     </snapshotRepository>
   </distributionManagement>
 </project>
