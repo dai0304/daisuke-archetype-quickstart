@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.jiemamy</groupId>
     <artifactId>generic-master</artifactId>
-    <version>0.2.1</version>
+    <version>0.2.2</version>
   </parent>
   <groupId>${groupId}</groupId>
   <artifactId>${artifactId}</artifactId>
@@ -44,27 +44,32 @@
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
-      <version>${lib.slf4j.version}</version>
+      <version>${slf4j-version}</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>jcl-over-slf4j</artifactId>
-      <version>${lib.slf4j.version}</version>
+      <version>${slf4j-version}</version>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>log4j-over-slf4j</artifactId>
-      <version>${lib.slf4j.version}</version>
+      <version>${slf4j-version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>log4j-over-slf4j</artifactId>
+      <version>${slf4j-version}</version>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-core</artifactId>
-      <version>${lib.logback.version}</version>
+      <version>${logback-version}</version>
     </dependency>
     <dependency>
       <groupId>ch.qos.logback</groupId>
       <artifactId>logback-classic</artifactId>
-      <version>${lib.logback.version}</version>
+      <version>${logback-version}</version>
     </dependency>
     
     <!-- COMMONS DEPENDENCIES -->
@@ -92,7 +97,7 @@
     </repository>
   </repositories>
   <properties>
-    <lib.slf4j.version>1.6.1</lib.slf4j.version>
-    <lib.logback.version>0.9.28</lib.logback.version>
+    <slf4j-version>1.6.1</slf4j-version>
+    <logback-version>0.9.28</logback-version>
   </properties>
 </project>
